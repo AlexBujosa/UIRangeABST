@@ -4,8 +4,33 @@ class Program
 {
     public static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Welcome Range App\n");
+
+        Console.Write("Ingrese el rango: ");
+        string range = Console.ReadLine();
+
+
+
+        /*---Compare-----
+         * Equlas
+         * Overlaps
+         * IntegerContainRange
+         * ContainRange
+         * 
+         * */
+
+        /*----No compare-----
+         * EndPoints
+         * Getallpoints
+         * 
+         */
+        
+        
         Console.ReadKey();
 
     }
+
+
+
+
 }
